@@ -23,3 +23,7 @@
 ### 10-love_exponent_breath -> Prints the result of BREATH to the power of LOVE
 
 ### 11-binary_to_decimal -> converts environmental variable BINARY to base 10
+
+### 12-combinations -> prints all possible combinations of two letters apart from oo
+
+### 13-print_float -> prints a number with 2 decimal places
