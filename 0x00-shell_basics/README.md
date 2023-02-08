@@ -32,3 +32,6 @@ deletes the file betty from the directory /tmp/my_first_directory
 
 ### 9-firstdirdeletion
 deletes the directory my_first_directory from the directory /tmp
+
+### 10-back
+changes the working directory to the previous one
