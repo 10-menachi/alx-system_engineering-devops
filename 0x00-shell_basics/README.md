@@ -44,3 +44,6 @@ prints the type of a file named iamafile which is in the /tmp directory
 
 ### 13-symbolic_link
 creates a symbolic link named __ls__ tat links to /bin/ls
+
+### 14-copy_html
+copies all HTML files from the current working directory to the parent of the current working directory
