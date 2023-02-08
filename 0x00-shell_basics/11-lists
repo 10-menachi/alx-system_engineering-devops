@@ -1,0 +1,2 @@
+#!/bin/baash
+ls -l . / /boot

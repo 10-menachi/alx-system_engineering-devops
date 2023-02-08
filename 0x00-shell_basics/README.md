@@ -35,3 +35,6 @@ deletes the directory my_first_directory from the directory /tmp
 
 ### 10-back
 changes the working directory to the previous one
+
+### 11-lists
+lists all files, including hidden ones, in the current directory, the parent of the working directory and the /boot directory
