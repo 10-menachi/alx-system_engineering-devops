@@ -20,3 +20,6 @@ files, in long format
 displays the contents list of the current directory, with user and group
 IDs displayed numerically and including hidden files, in long
 format
+
+### 6-firstdirectory
+creates a directory called my_first_directory in the /tmp/ directory
