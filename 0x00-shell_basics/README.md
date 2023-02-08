@@ -41,3 +41,6 @@ lists all files, including hidden ones, in the current directory, the parent of 
 
 ### 12-file_type
 prints the type of a file named iamafile which is in the /tmp directory
+
+### 13-symbolic_link
+creates a symbolic link named __ls__ tat links to /bin/ls
