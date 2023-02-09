@@ -30,3 +30,7 @@ users to the file hello
 adds, to the file hello, no permission to the owner, no
 permission to the group owner and all permissions to other
 users
+
+### 9-John_Doe
+sets the mode of the file hello as follows
+```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello```
