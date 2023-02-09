@@ -25,3 +25,8 @@ read permission to other users to the file hello
 ### 7-everybody
 adds execute permission to the owner, group owner and other
 users to the file hello
+
+### 8-James_Bond
+adds, to the file hello, no permission to the owner, no
+permission to the group owner and all permissions to other
+users
