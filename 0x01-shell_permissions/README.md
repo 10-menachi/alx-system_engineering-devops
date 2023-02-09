@@ -33,4 +33,8 @@ users
 
 ### 9-John_Doe
 sets the mode of the file hello as follows
-```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello```
+```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello
+```
+
+### 10-mirror_permissions
+sets the mode of the file hello to the same as that of olleh
