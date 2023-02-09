@@ -38,3 +38,7 @@ sets the mode of the file hello as follows
 
 ### 10-mirror_permissions
 sets the mode of the file hello to the same as that of olleh
+
+### 11-directories_permissions
+adds execute permission to all subdirectories of the current
+directory to the owner, group owner and all the other users.
