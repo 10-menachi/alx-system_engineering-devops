@@ -18,3 +18,7 @@ displays the last 10 lines of /etc/passwd
 
 ### 5-firstlines
 displays the first 10 lines of /etc/passwd
+
+### 6-third_line
+displays the third line of the file iacta, which is in
+the working directory
