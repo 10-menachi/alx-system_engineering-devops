@@ -9,3 +9,6 @@ prints a confused smiley, "(Ôo)'
 
 ### 2-hellofile
 displays the content of the file /etc/passwd
+
+### 3-twofiles
+displays the content of the files /etc/passwd and /etc/hosts
