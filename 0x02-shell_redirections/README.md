@@ -22,3 +22,7 @@ displays the first 10 lines of /etc/passwd
 ### 6-third_line
 displays the third line of the file iacta, which is in
 the working directory
+
+### 7-file
+creates a file named exactly "\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)"
+containing the text Best School
