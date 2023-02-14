@@ -33,3 +33,7 @@ followed by a new line
 ### 9-divide_and_rule
 prints the result of the division of the environment
 variables POWER and DIVIDE
+
+### 10-love_exponent_breath
+displays the result of the environment variable BREATH
+to the power of the environment variable LOVE
