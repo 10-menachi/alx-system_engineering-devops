@@ -15,3 +15,6 @@ counts the number of directories in the path
 
 ### 4-global_variables
 lists environmental variables
+
+### 5-local_variables
+lists all local variables, environmental variables and functions
