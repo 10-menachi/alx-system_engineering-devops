@@ -37,3 +37,6 @@ variables POWER and DIVIDE
 ### 10-love_exponent_breath
 displays the result of the environment variable BREATH
 to the power of the environment variable LOVE
+
+### 11-binary_to_decimal
+converts a number from base 2 to base 10
