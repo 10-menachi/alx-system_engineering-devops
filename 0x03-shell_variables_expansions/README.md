@@ -12,3 +12,6 @@ adds /action to the path
 
 ### 3-paths
 counts the number of directories in the path
+
+### 4-global_variables
+lists environmental variables
