@@ -43,3 +43,7 @@ converts a number from base 2 to base 10
 
 ### 12-combinations
 prints all possible combinations of two letters except oo
+
+### 13-print_float
+prints the value of the environmental variable NUM in
+two decimal places followed by a new line
