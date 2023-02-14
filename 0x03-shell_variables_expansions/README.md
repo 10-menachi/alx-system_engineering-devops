@@ -9,3 +9,6 @@ linux user
 
 ### 2-path
 adds /action to the path
+
+### 3-paths
+counts the number of directories in the path
