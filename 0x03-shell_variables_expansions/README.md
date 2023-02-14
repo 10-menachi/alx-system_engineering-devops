@@ -29,3 +29,7 @@ creates a new global variable, BEST, with the value School
 prints the result of the addition of 128 with the value
 stored in the environmental variable TRUEKNOWLEDGE
 followed by a new line
+
+### 9-divide_and_rule
+prints the result of the division of the environment
+variables POWER and DIVIDE
