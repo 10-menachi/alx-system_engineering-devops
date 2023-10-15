@@ -1,4 +1,4 @@
-#!/ur/bin/env ruby
+#!/usr/bin/env ruby
 
 # Regular expression to match only capital letters
 
