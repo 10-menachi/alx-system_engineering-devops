@@ -1,4 +1,3 @@
 #!/usr/bin/env ruby
-# The regular expression must match hbtn whereby
-# there is either b or t between `h` and `n` in the string.
+# The regular expression must match hbtn whereby the letter t can be present zero or one times.
 puts ARGV[0].scan(/hb?tn/).join
