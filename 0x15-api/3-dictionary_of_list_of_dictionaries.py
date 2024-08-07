@@ -32,12 +32,6 @@ def export_to_json():
 
         all_tasks[user_id] = user_tasks
 
-        print(f"Correct USER_ID: OK")
-        if isinstance(user_tasks, list):
-            print(f"USER_ID's value type is a list of dicts: OK")
-            if all(isinstance(task, dict) for task in user_tasks):
-                print(f"All tasks found: OK")
-
     with open('todo_all_employees.json', 'w') as json_file:
         json.dump(all_tasks, json_file, indent=4)
 
