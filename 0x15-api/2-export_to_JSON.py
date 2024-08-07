@@ -14,7 +14,6 @@ def fetch_employee_data(employee_id):
     employee_url = f'{base_url}/users/{employee_id}'
     todos_url = f'{base_url}/todos'
 
-    # Fetch employee data
     employee_response = requests.get(employee_url)
     if employee_response.status_code != 200:
         print("Employee not found")
@@ -23,7 +22,6 @@ def fetch_employee_data(employee_id):
     employee_data = employee_response.json()
     employee_name = employee_data.get('username')
 
-    # Fetch TODO list data
     todos_response = requests.get(todos_url)
     if todos_response.status_code != 200:
         print("Todos not found")
@@ -31,7 +29,6 @@ def fetch_employee_data(employee_id):
 
     todos_data = todos_response.json()
 
-    # Filter TODOs for the given employee ID
     employee_todos = [todo for todo in todos_data if todo.get(
         'userId') == employee_id]
 
