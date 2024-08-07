@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""A script to fetch and export TODO list progress to a CSV file for a given employee ID."""
+"""
+A script to fetch and export TODO list progress
+to a CSV file for a given employee ID.
+"""
 
 import csv
 import requests
