@@ -30,5 +30,7 @@ def count_words(subreddit, word_list):
                     word_count[word] += title.count(word.lower())
                 else:
                     word_count[word] = title.count(word.lower())
-    for key, value in sorted(word_count.items(), key=lambda x: x[1], reverse=True):
+    for key, value in sorted(word_count.items(),
+                             key=lambda x: x[1],
+                             reverse=True):
         print('{}: {}'.format(key, value))

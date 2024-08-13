@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 """
 This module contains a function that queries the Reddit API
-and returns a list containing the titles of all hot articles for a given subreddit.
+and returns a list containing the titles of all
+hot articles for a given subreddit.
 """
 
 
 def recurse(subreddit, hot_list=[]):
     """
-    Queries the Reddit API and returns a list containing the titles of all hot articles for a given subreddit.
+    Queries the Reddit API and returns a list
+    containing the titles of all hot articles for a given subreddit.
     """
     import requests
 
