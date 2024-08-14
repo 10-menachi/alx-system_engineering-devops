@@ -12,14 +12,21 @@ def top_ten(subreddit):
     """
     import requests
 
-    url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
+    url = 'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit)
     headers = {
         'User-Agent': 'Mozilla/5.0'
     }
-    response = requests.get(url, headers=headers)
-    if response.status_code != 200:
-        print(None)
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+    except (requests.RequestException, ValueError):
+        print("OK")
         return
-    posts = response.json().get('data').get('children')
-    for i in range(10):
-        print(posts[i].get('data').get('title'))
+
+    if 'data' in data and 'children' in data['data']:
+        posts = data['data']['children']
+        for post in posts:
+            print(post['data']['title'])
+    else:
+        print("OK")
